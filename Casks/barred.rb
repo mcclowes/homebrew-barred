@@ -1,6 +1,6 @@
 cask "barred" do
   version "0.1.0"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "3038423461cd9ba85d2a12bac0b072b949108e69ab0f9d309f276a3419203941"
 
   url "https://github.com/mcclowes/barred/releases/download/v#{version}/Barred.zip"
   name "Barred"
