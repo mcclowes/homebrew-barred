@@ -1,6 +1,6 @@
 cask "barred" do
-  version "0.1.3"
-  sha256 "98eb7ffc9d7329dd075647b50092daa0035da8f623c8680dac982eb70840534a"
+  version "0.1.4"
+  sha256 "ff23cec6959e9a89a72ee0dfe72ffa7883c2c9db10bf89ec6afe760ae18586b8"
 
   url "https://github.com/mcclowes/barred/releases/download/v#{version}/Barred.zip"
   name "Barred"
@@ -12,6 +12,6 @@ cask "barred" do
   app "Barred.app"
 
   zap trash: [
-    "~/Library/Preferences/com.barred.app.plist",
+    "~/Library/Preferences/com.mcclowes.barred.plist",
   ]
 end
