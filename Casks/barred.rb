@@ -1,10 +1,9 @@
 cask "barred" do
-  version "1.1.1"
-  sha256 "2a5e5275996e30fc825f20f0170ceefc0a47e9787d41a09cda6a76b7a57ee67d"
-
+  version "1.1.2"
+  sha256 "cb830899812d653530c0f1a6869bdebbc74b53ebf59f867de3723380366df260"
   url "https://github.com/mcclowes/barred/releases/download/v#{version}/Barred.zip"
   name "Barred"
-  desc "macOS menu bar manager"
+  desc "Native macOS menu bar manager"
   homepage "https://github.com/mcclowes/barred"
 
   depends_on macos: :sonoma
@@ -12,6 +11,7 @@ cask "barred" do
   app "Barred.app"
 
   zap trash: [
+    "~/Library/Application Support/Barred",
     "~/Library/Preferences/com.mcclowes.barred.plist",
   ]
 end
