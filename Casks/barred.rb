@@ -7,7 +7,7 @@ cask "barred" do
   desc "macOS menu bar manager"
   homepage "https://github.com/mcclowes/barred"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Barred.app"
 
