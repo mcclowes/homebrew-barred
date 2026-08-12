@@ -1,6 +1,6 @@
 cask "barred" do
-  version "1.1.3"
-  sha256 "15e2663b11bb6e04e19520cda97140b278f5ef7366fda56cd931b7615a82b693"
+  version "1.1.4"
+  sha256 "3caaa810a32219693de9af276af8b4f03e61c867212460897c0005241a81f8a0"
   url "https://github.com/mcclowes/barred/releases/download/v#{version}/Barred.zip"
   name "Barred"
   desc "Native macOS menu bar manager"
