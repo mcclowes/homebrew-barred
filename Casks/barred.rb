@@ -7,6 +7,7 @@ cask "barred" do
   homepage "https://github.com/mcclowes/barred"
 
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "Barred.app"
 
