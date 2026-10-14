@@ -35,3 +35,10 @@ Download `Barred.zip` from the [latest release](https://github.com/mcclowes/barr
 extract it, and move `Barred.app` to Applications.
 
 Source and build instructions are in the [Barred repository](https://github.com/mcclowes/barred).
+
+## Checks
+
+GitHub Actions checks every push and pull request with stable Homebrew on macOS
+26. It checks cask style, runs the strict cask audit, and fetches the release
+archive to verify its checksum. The job checks the current tap checkout and
+doesn't install or launch Barred.
